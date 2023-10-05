@@ -1,0 +1,189 @@
+body {
+  margin: 0rem;
+  font-family: "Inria Sans", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  background-color: rgb(255, 255, 255);
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+.header {
+  display: inline-flex;
+  width: 100%;
+  height: 150px;
+  color: rgb(42, 40, 178);
+  background-color: rgba(0, 0, 255, 0.285);
+}
+
+.header-right {
+  display: inline-flex;
+  padding: 5px;
+  margin-left: 70rem;
+  margin-top: -10px;
+}
+
+.header-left {
+  margin: 10px;
+}
+
+.header h4 {
+  margin-left: 20px;
+}
+
+.header img {
+  height: 70%;
+
+  padding: 10px;
+}
+
+.button1 {
+  background-color: rgba(128, 128, 128, 0.533);
+  margin-left: 40px;
+  border-radius: 5px;
+  height: 30px;
+  color: rgb(0, 0, 0);
+  margin-top: 15px;
+}
+
+.herocontent {
+  padding: 50px;
+  padding-left: 35em;
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.285);
+  font-size: 20px;
+}
+
+.button2 {
+  background-color: rgba(79, 102, 208, 0.533);
+  margin-left: 40px;
+  width: 150px;
+  height: 60px;
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  border-radius: 8px;
+  margin: 50px 200px;
+  box-shadow: 5px 2px 5px rgb(164, 160, 156);
+  font-size: 20px;
+}
+
+.hero {
+  position: absolute;
+  z-index: 0;
+  padding: 20px 100px;
+}
+
+.info {
+  background-color: rgba(79, 102, 208, 0.533);
+  padding: 200px;
+  height: 500px;
+  margin-top: -2px -100px;
+  height: 200px;
+}
+
+.studyingimg {
+  height: 500px;
+  border-radius: 500px;
+  margin-top: -500px;
+  box-shadow: 2px 5px 50px rgb(219, 180, 180);
+}
+
+.infotext {
+  margin-left: 600px;
+  background-color: rgba(26, 54, 182, 0.3);
+  color: rgba(42, 42, 67, 0.837);
+  border-radius: 20px;
+  padding: 10px;
+  margin-top: -50px;
+
+  box-shadow: 12px 10px 5px rgb(49, 42, 33);
+}
+
+.recs h3 {
+  text-align: center;
+  font-size: 80px;
+  color: rgba(59, 59, 101, 0.837);
+}
+
+.recwrap {
+  display: inline-flex;
+}
+
+.card1,
+.card2,
+.card3 {
+  background-color: rgba(26, 54, 182, 0.3);
+  padding: 20px;
+  margin: 20px;
+  width: 400px;
+  height: 300px;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 25px;
+  box-shadow: 12px 10px 5px rgb(164, 160, 156);
+}
+
+#rufus,
+#arne,
+#benjamin {
+  height: 150px;
+  width: 200px;
+  margin: 20px 10px;
+  border-radius: 8px;
+}
+
+.hero2 {
+  display: inline-block;
+  justify-content: space-between;
+  padding: 100px 500px;
+  font-size: 50px;
+  color: rgba(59, 59, 101, 0.837);
+}
+
+.hero2 button {
+  background-color: rgba(79, 102, 208, 0.533);
+  width: 150px;
+  height: 60px;
+  color: rgb(22, 51, 83);
+  padding: 10px;
+  border-radius: 8px;
+  margin: 50px 200px;
+  box-shadow: 5px 2px 5px rgb(164, 160, 156);
+  font-size: 20px;
+}
+
+.hero2 h3 {
+  margin-left: 45px;
+}
+
+.footer {
+  background-color: rgba(79, 102, 208, 0.533);
+  height: 350px;
+}
+
+.footer {
+  padding: 10px;
+  margin: 100px;
+  border-radius: 25px;
+  color: rgba(59, 59, 101, 0.837);
+  box-shadow: 10px 5px 5px rgb(143, 127, 127);
+}
+
+.footer p {
+  text-align: left;
+  margin-left: 10px;
+  padding: 1px;
+}
+
+.midfooter {
+  text-align: center;
+}
+
+.rightfooter {
+  width: 200px;
+  height: 400px;
+  margin: -240px 570px;
+}
